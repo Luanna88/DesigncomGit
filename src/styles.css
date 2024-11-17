@@ -6,7 +6,7 @@
 
 html,
 body {
-  font-family: "Montserrat", sans-serif;
+  font-family: cursive;
   height: 100%;
   margin: 0;
   overflow-x: hidden;
@@ -31,7 +31,13 @@ section.min-height {
 
 section.padding {
   padding: 5rem 0;
+ 
 }
+section.padding2 {
+  padding: 5rem 0;
+  
+}
+
 
 section img.background {
   height: 100%;
@@ -46,25 +52,40 @@ section img.background {
 }
 
 h1 {
-  font-family: "Cormorant Garamond", serif;
-  font-size: 7rem;
+  font-family: cursive;
+  font-size: 4rem;
   font-weight: 400;
   line-height: 0.8;
   margin: 0;
+  color: #D1D2D5
+  
 }
 
 h2 {
+  font-family: cursive;
   font-size: 2rem;
   font-weight: 400;
   margin: 0;
   padding-top: 1rem;
+  color: #D1D2D5
 }
 
 h3 {
   font-weight: 400;
   font-size: 1.25rem;
   margin: 0;
+  color: #D1D2D5
 }
+
+h4 {
+  font-family: cursive;
+  font-size: 2rem;
+  font-weight: 400;
+  margin: 0;
+  padding-top: 1rem;
+  color: #090909
+}
+
 
 p {
   font-size: 18px;
@@ -96,6 +117,7 @@ li::marker {
 a {
   color: black;
   text-decoration: none;
+  
 }
 
 a:hover {
@@ -107,6 +129,7 @@ a:hover {
   grid-gap: 20px;
   grid-template-columns: 330px 300px;
   margin: 20px auto;
+
 }
 
 .container .box {
@@ -117,6 +140,7 @@ a:hover {
   justify-content: flex-start;
   padding: 24px 16px;
   text-align: center;
+  
 }
 
 img.socialIcon {
